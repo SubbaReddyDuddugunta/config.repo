@@ -6,9 +6,9 @@ message:Hello From Dev!!
 spring:
   datasource:
       url:jdbc:mysql://localhost:3306/order_dev
-    username:root
-    password:root@123
+      username:root
+      password:root@123
 jpa:
  hibernate:
     ddl-auto:update
-show-sql:true
+    show-sql:true
